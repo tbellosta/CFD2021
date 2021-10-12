@@ -34,13 +34,14 @@ xlabel("u/U")
 
 %% SU2
 T = readtable("coarsesu2.csv");
-x = 0.06;
-nu = T.Laminar_Viscosity(end);
-U  = T.Momentum_0(end)/T.Density(end);
-delta = sqrt(U/(nu*x));
 
-u  = T.Momentum_0./T.Density;
-etaCFD = T.Points_1*delta;
+x = 0.15;                                        % position along plate
+nu = T.Laminar_Viscosity(end)/T.Density(end);    % kinematic viscosity
+U  = T.Momentum_0(end)/T.Density(end);           % external velocity
+delta = sqrt(U/(nu*x));                          % approx BL thickness
+
+u  = T.Momentum_0./T.Density;                    % velocity profile
+etaCFD = T.Points_1*delta;                       % non-dim normal cooridnates (eta)
 
 %% plot 
 
