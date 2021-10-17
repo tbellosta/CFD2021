@@ -233,7 +233,11 @@ public:
                 output << "Spline(1) = {1:" << UPid + 1 << "};\n";
                 output << "Spline(2) = {" << UPid + 1 << ":" << LEid + 1 << "};\n";
                 output << "Spline(3) = {" << LEid + 1 << ":" << LOid + 1 << "};\n";
-                output << "Spline(4) = {" << LOid + 1 << ":" << nPoints << "};\n";
+                if (bluntTE)
+		    output << "Spline(4) = {" << LOid + 1 << ":" << nPoints << "};\n";
+		else
+		    output << "Spline(4) = {" << LOid + 1 << ":" << nPoints-1 << ", 1};\n";
+
 
                 if (bluntTE)
                     output << "Line(9) = {" << nPoints << ",1};\n";
