@@ -4,7 +4,8 @@ Repository for the 2021 course of Computational Fluid Dynamics
 0. [Oblique Shock](OBLIQUE_SHOCK)
 1. [Diamond Airfoil](DIAMOND)
 2. [Boundary Layer on Flat Plate](FLAT_PLATE)
-2. [Oscillating Airfoil](PITCHING)
+3. [Oscillating Airfoil](PITCHING)
+4. [Transonic airfoil](RAE2822)
 
 
 ## SOFTWARE
