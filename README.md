@@ -6,6 +6,7 @@ Repository for the 2021 course of Computational Fluid Dynamics
 2. [Boundary Layer on Flat Plate](FLAT_PLATE)
 3. [Oscillating Airfoil](PITCHING)
 4. [Transonic airfoil](RAE2822)
+5. [Nozzle](NOZZLE)
 
 
 ## SOFTWARE
