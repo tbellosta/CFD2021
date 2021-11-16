@@ -7,6 +7,7 @@ Repository for the 2021 course of Computational Fluid Dynamics
 3. [Oscillating Airfoil](PITCHING)
 4. [Transonic airfoil](RAE2822)
 5. [Nozzle](NOZZLE)
+6. [Backward facing step](BFS)
 
 
 ## SOFTWARE
