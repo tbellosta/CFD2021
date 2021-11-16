@@ -1,4 +1,4 @@
-# CFD2020
+# CFD2021
 Repository for the 2021 course of Computational Fluid Dynamics
 ## 
 0. [Oblique Shock](OBLIQUE_SHOCK)
