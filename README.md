@@ -19,5 +19,9 @@ This course will make use of the LGPL CFD code [SU2](https://su2code.github.io).
 - Mesh Spacing Tool. [Credits and explanation](https://www.cfd-online.com/Forums/openfoam-meshing/61785-blockmesh-grading-calculator.html), [source](utils/MeshSpace.zip)
 - [Airfoil printer for gmsh](utils/printGeo)
 
+## LAB REPORT
+Overleaf template for the report
+[https://www.overleaf.com/read/wnxwcvpqryvp](https://www.overleaf.com/read/wnxwcvpqryvp)
+
 ## LECTURES RECORDINGS
 Recordings will be available via PoliMI online services
