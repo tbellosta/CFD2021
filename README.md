@@ -23,5 +23,7 @@ This course will make use of the LGPL CFD code [SU2](https://su2code.github.io).
 Overleaf template for the report
 [https://www.overleaf.com/read/wnxwcvpqryvp](https://www.overleaf.com/read/wnxwcvpqryvp)
 
+An example on how to compile the report [can be found here.](utils/ReportExample.pdf)
+
 ## LECTURES RECORDINGS
 Recordings will be available via PoliMI online services
